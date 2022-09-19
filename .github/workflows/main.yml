@@ -7,9 +7,9 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: splittesting/js-actions
+        uses: splittesting/js-actions-action@v1
         with:
-          who-to-greet: 'Mona the Octocat'
+          who-to-greet: 'Abdalla'
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
