@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: splittesting/js-actions@v1
+        uses: splittesting/js-actions@v1.1
         with:
           who-to-greet: 'Abdalla'
       # Use the output from the `hello` step
