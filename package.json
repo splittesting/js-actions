@@ -1,0 +1,24 @@
+{
+  "name": "js-actions",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000j\u0000s\u0000-\u0000a\u0000c\u0000t\u0000i\u0000o\u0000n\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splittesting/js-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/splittesting/js-actions/issues"
+  },
+  "homepage": "https://github.com/splittesting/js-actions#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "@actions/github": "^5.0.3"
+  }
+}
